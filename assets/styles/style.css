@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Netflix Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+.clear {
+  clear: both;
+}
+
+.background {
+  position: absolute;
+  top: 0;
+  width: 100vw;
+  height: 76vh;
+  z-index: -1;
+}
+.background img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.background .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.8) 0, transparent 60%, rgba(0, 0, 0, 0.8));
+}
+
+header {
+  padding: 28px 56px;
+}
+header svg {
+  width: 167px;
+}
+header .buttons {
+  float: right;
+}
+header a {
+  display: inline-block;
+  background-color: #e50914;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 400;
+  padding: 8px 16px;
+  border-radius: 2px;
+}
+
+.hero {
+  padding: 140px 25%;
+}
+.hero h1 {
+  font-weight: 700;
+  color: #fff;
+  font-size: 4rem;
+  text-align: center;
+  line-height: 1.1;
+  margin-bottom: 16px;
+}
+.hero h3 {
+  color: #fff;
+  text-align: center;
+  font-weight: 400;
+  font-size: 1.625rem;
+  margin-bottom: 28px;
+}
+.hero p {
+  color: #fff;
+  text-align: center;
+  font-size: 19px;
+  margin-bottom: 18px;
+}
+.hero input {
+  width: 67%;
+  height: 70px;
+  border: none;
+  transform: translateY(-4.5px);
+  font-size: 1rem;
+  padding: 0 12px;
+}
+.hero button {
+  width: 32%;
+  height: 70px;
+  font-size: 1.75rem;
+  border: none;
+  background-color: #e50914;
+  color: #fff;
+  transform: translateX(-4px);
+}
+.hero button svg {
+  height: 24px;
+  transform: translateY(4px);
+  margin-left: 16px;
+}/*# sourceMappingURL=style.css.map */
